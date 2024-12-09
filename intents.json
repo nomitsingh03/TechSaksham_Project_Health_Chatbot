@@ -1,0 +1,328 @@
+[
+    {
+        "tag": "greeting",
+        "patterns": [
+            "Hi",
+            "Hello",
+            "Hey",
+            "How are you",
+            "What's up"
+        ],
+        "responses": [
+            "Hi there",
+            "Hello",
+            "Hey",
+            "I'm fine, thank you",
+            "Nothing much"
+        ]
+    },
+    {
+        "tag": "morning",
+        "patterns": [
+            "Good morning"
+        ],
+        "responses": [
+            "Good morning. I hope you had a good night's sleep. How are you feeling today? "
+        ]
+    },
+    {
+        "tag": "afternoon",
+        "patterns": [
+            "Good afternoon"
+        ],
+        "responses": [
+            "Good afternoon. How is your day going?"
+        ]
+    },
+    {
+        "tag": "evening",
+        "patterns": [
+            "Good evening"
+        ],
+        "responses": [
+            "Good evening. How has your day been?"
+        ]
+    },
+    {
+        "tag": "night",
+        "patterns": [
+            "Good night"
+        ],
+        "responses": [
+            "Good night. Get some proper sleep",
+            "Good night. Sweet dreams."
+        ]
+    },
+    {
+        "tag": "name",
+        "patterns": [
+            "What's your name",
+            "Do you have a name",
+            "What should I call you"
+        ],
+        "responses": [
+            "You can call me Chatbot.",
+            "My name is Chatbot."
+        ]
+    },
+    {
+        "tag": "happiness",
+        "patterns": [
+            "Tell me about happiness",
+            "How to find happiness",
+            "Keys to a happy life"
+        ],
+        "responses": [
+            "Happiness is a subjective and individual experience, and it can be found in meaningful relationships, personal achievements, and gratitude.",
+            "Focusing on positive aspects, practicing mindfulness, and helping others contribute to a happier life."
+        ]
+    },
+    {
+        "tag": "self_care",
+        "patterns": [
+            "Tell me about self-care",
+            "How to practice self-care",
+            "Importance of self-love"
+        ],
+        "responses": [
+            "Self-care involves taking care of one's physical, emotional, and mental well-being.",
+            "Prioritizing self-care can lead to improved overall health and a more balanced lifestyle."
+        ]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": [
+            "Bye",
+            "Goodbye",
+            "See you later",
+            "Take care"
+        ],
+        "responses": [
+            "Goodbye! Take care!",
+            "See you later!"
+        ]
+    },
+    {
+        "tag": "thanks",
+        "patterns": [
+            "Thank you",
+            "Thanks",
+            "Thanks a lot",
+            "Much appreciated"
+        ],
+        "responses": [
+            "You're welcome!",
+            "Happy to help!",
+            "Anytime!"
+        ]
+    },
+    {
+        "tag": "symptoms_flu",
+        "patterns": [
+            "What are the symptoms of flu?",
+            "How do I know if I have flu?",
+            "Flu symptoms"
+        ],
+        "responses": [
+            "Common flu symptoms include fever, chills, muscle aches, cough, congestion, runny nose, headaches, and fatigue."
+        ]
+    },
+    {
+        "tag": "symptoms_covid",
+        "patterns": [
+            "What are the symptoms of COVID-19?",
+            "How do I know if I have COVID-19?",
+            "COVID-19 symptoms"
+        ],
+        "responses": [
+            "Common COVID-19 symptoms include fever, dry cough, tiredness, loss of taste or smell, and difficulty breathing. Severe cases can lead to pneumonia and other complications."
+        ]
+    },
+    {
+        "tag": "symptoms_allergy",
+        "patterns": [
+            "What are the symptoms of an allergy?",
+            "How do I know if I have allergies?",
+            "Allergy symptoms"
+        ],
+        "responses": [
+            "Common allergy symptoms include sneezing, runny or stuffy nose, itchy eyes, throat or nose, watery eyes, and rashes."
+        ]
+    },
+    {
+        "tag": "symptoms_diabetes",
+        "patterns": [
+            "What are the symptoms of diabetes?",
+            "How do I know if I have diabetes?",
+            "Diabetes symptoms"
+        ],
+        "responses": [
+            "Common symptoms of diabetes include increased thirst, frequent urination, extreme hunger, unexplained weight loss, fatigue, blurred vision, and slow-healing sores."
+        ]
+    },
+    {
+        "tag": "symptoms_fever",
+        "patterns": [
+            "What are the symptoms of fever?",
+            "How do I know if I have fever?",
+            "Fever symptoms"
+        ],
+        "responses": [
+            "Common symptoms of fever include elevated body temperature, chills, sweating, headache, muscle aches, weakness, and dehydration."
+        ]
+    },
+    {
+        "tag": "symptoms_cold",
+        "patterns": [
+            "What are the symptoms of cold?",
+            "How do I know if I have a cold?",
+            "Cold symptoms"
+        ],
+        "responses": [
+            "Common cold symptoms include runny or stuffy nose, sneezing, sore throat, cough, congestion, mild fever, and watery eyes."
+        ]
+    },
+    {
+        "tag": "symptoms_high_blood_sugar",
+        "patterns": [
+            "What are the symptoms of high blood sugar?",
+            "How do I know if I have high blood sugar?",
+            "High blood sugar symptoms"
+        ],
+        "responses": [
+            "Common symptoms of high blood sugar include increased thirst, frequent urination, fatigue, blurred vision, slow-healing wounds, increased hunger, and unexplained weight loss."
+        ]
+    },
+    {
+        "tag": "symptoms_high_blood_pressure",
+        "patterns": [
+            "What are the symptoms of high blood pressure?",
+            "How do I know if I have high blood pressure?",
+            "High blood pressure symptoms"
+        ],
+        "responses": [
+            "High blood pressure often has no symptoms, but severe cases can include severe headache, fatigue, vision problems, chest pain, difficulty breathing, and irregular heartbeat."
+        ]
+    },
+    {
+        "tag": "identify_flu",
+        "patterns": [
+            "I have a fever and chills",
+            "My muscles ache and I have a headache",
+            "What disease causes fever, chills, and muscle aches?"
+        ],
+        "responses": [
+            "These symptoms could indicate the flu. It's best to consult a healthcare professional for an accurate diagnosis and treatment."
+        ]
+    },
+    {
+        "tag": "identify_cold",
+        "patterns": [
+            "I have a runny nose and a sore throat",
+            "I'm sneezing and my nose is stuffy",
+            "What illness causes runny nose and sneezing?"
+        ],
+        "responses": [
+            "These symptoms might suggest a common cold. Rest and hydration are usually helpful, but see a doctor if symptoms worsen."
+        ]
+    },
+    {
+        "tag": "identify_covid",
+        "patterns": [
+            "I have a fever and loss of taste",
+            "I'm coughing and have difficulty breathing",
+            "What illness causes fever and loss of taste?"
+        ],
+        "responses": [
+            "These symptoms could indicate COVID-19. It's important to get tested and follow medical advice to ensure your safety and the safety of others."
+        ]
+    },
+    {
+        "tag": "identify_diabetes",
+        "patterns": [
+            "I'm always thirsty and hungry",
+            "I have frequent urination and fatigue",
+            "What condition causes increased thirst and frequent urination?"
+        ],
+        "responses": [
+            "These symptoms might indicate diabetes. Please consult a healthcare professional for proper testing and diagnosis."
+        ]
+    },
+    {
+        "tag": "identify_high_blood_pressure",
+        "patterns": [
+            "I have severe headaches and chest pain",
+            "I'm often tired and have vision problems",
+            "What could cause severe headache and chest pain?"
+        ],
+        "responses": [
+            "These symptoms could be related to high blood pressure. It's important to seek medical attention to manage this condition effectively."
+        ]
+    },
+    {
+        "tag": "identify_migraine",
+        "patterns": [
+            "I have severe headaches and nausea",
+            "I'm sensitive to light and sound",
+            "What could cause severe headache and sensitivity to light?"
+        ],
+        "responses": [
+            "These symptoms might suggest a migraine. It's best to consult a healthcare professional for an accurate diagnosis and treatment."
+        ]
+    },
+    {
+        "tag": "identify_asthma",
+        "patterns": [
+            "I have difficulty breathing and a wheezing sound",
+            "My chest feels tight and I'm coughing",
+            "What could cause difficulty breathing and wheezing?"
+        ],
+        "responses": [
+            "These symptoms could indicate asthma. Please seek medical advice to manage your condition effectively."
+        ]
+    },
+    {
+        "tag": "identify_anemia",
+        "patterns": [
+            "I feel very tired and weak",
+            "I have pale skin and shortness of breath",
+            "What condition causes fatigue and pale skin?"
+        ],
+        "responses": [
+            "These symptoms might indicate anemia. It's important to consult a healthcare professional for proper testing and treatment."
+        ]
+    },
+    {
+        "tag": "identify_hyperthyroidism",
+        "patterns": [
+            "I have rapid heartbeat and weight loss",
+            "I'm feeling anxious and sweating a lot",
+            "What could cause rapid heartbeat and weight loss?"
+        ],
+        "responses": [
+            "These symptoms could suggest hyperthyroidism. Please consult a healthcare professional for an accurate diagnosis and treatment."
+        ]
+    },
+    {
+        "tag": "identify_hypothyroidism",
+        "patterns": [
+            "I feel very tired and cold",
+            "I'm gaining weight and my skin is dry",
+            "What condition causes fatigue and weight gain?"
+        ],
+        "responses": [
+            "These symptoms might indicate hypothyroidism. It's best to see a healthcare professional for proper diagnosis and treatment."
+        ]
+    },
+    {
+        "tag": "identify_depression",
+        "patterns": [
+            "I feel very sad and have lost interest in things",
+            "I'm feeling hopeless and tired",
+            "What could cause persistent sadness and fatigue?"
+        ],
+        "responses": [
+            "These symptoms might suggest depression. It's important to seek help from a mental health professional."
+        ]
+    }
+]
