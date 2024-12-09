@@ -27,8 +27,8 @@ This project implements a chatbot using Natural Language Processing (NLP) techni
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository-url>  <!-- https://github.com/nomitsingh03/TechSaksham_Project_Health_Chatbot -->
-cd <repository-directory>
+git clone <repository-url>  # https://github.com/nomitsingh03/TechSaksham_Project_Health_Chatbot 
+cd <repository-directory>   # TechSaksham_Project_Health_Chatbot
 ```
 
 ### 2. Create a Virtual Environment (Optional but Recommended)
